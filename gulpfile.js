@@ -5,9 +5,7 @@ var gulp = require('gulp'),
     coffee = require('gulp-coffee'),
     concat = require('gulp-concat'),
     livereload = require('gulp-livereload'),
-    nodemon = require('gulp-nodemon'),
-    lr = require('tiny-lr'),
-    server = lr();
+    nodemon = require('gulp-nodemon');
 
 var coffeeSources = [
   'components/coffee/*.coffee'
