@@ -51,7 +51,7 @@ table {
    v2.0 | 20110126
    License: none (public domain)
 */
-/* line 6, ../../../../../../Users/eschoppik/Desktop/finished/gulp_sass_coffee_starter/components/sass/_reset.scss */
+/* line 6, ../../../../../../Users/Myk/projects/framework/components/sass/_reset.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -74,36 +74,38 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-/* line 27, ../../../../../../Users/eschoppik/Desktop/finished/gulp_sass_coffee_starter/components/sass/_reset.scss */
+/* line 27, ../../../../../../Users/Myk/projects/framework/components/sass/_reset.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 31, ../../../../../../Users/eschoppik/Desktop/finished/gulp_sass_coffee_starter/components/sass/_reset.scss */
+/* line 31, ../../../../../../Users/Myk/projects/framework/components/sass/_reset.scss */
 body {
   line-height: 1;
 }
 
-/* line 34, ../../../../../../Users/eschoppik/Desktop/finished/gulp_sass_coffee_starter/components/sass/_reset.scss */
+/* line 34, ../../../../../../Users/Myk/projects/framework/components/sass/_reset.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 37, ../../../../../../Users/eschoppik/Desktop/finished/gulp_sass_coffee_starter/components/sass/_reset.scss */
+/* line 37, ../../../../../../Users/Myk/projects/framework/components/sass/_reset.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 40, ../../../../../../Users/eschoppik/Desktop/finished/gulp_sass_coffee_starter/components/sass/_reset.scss */
+/* line 40, ../../../../../../Users/Myk/projects/framework/components/sass/_reset.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
 
-/* line 45, ../../../../../../Users/eschoppik/Desktop/finished/gulp_sass_coffee_starter/components/sass/_reset.scss */
+/* line 45, ../../../../../../Users/Myk/projects/framework/components/sass/_reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/*# sourceMappingURL=main.scss.map */
