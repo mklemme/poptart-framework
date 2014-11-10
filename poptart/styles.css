@@ -1,128 +1,304 @@
+// /* http://meyerweb.com/eric/tools/css/reset/
+//    v2.0 | 20110126
+//    License: none (public domain)
+// */
 
-/* line 1, ../../../../../../Users/Myk/projects/framework/components/sass/framework/settings/_reset.sass */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video
+  margin: 0
+  padding: 0
+  border: 0
+  font-size: 100%
+  font: inherit
+  vertical-align: baseline
 
 /* HTML5 display-role reset for older browsers */
-/* line 21, ../../../../../../Users/Myk/projects/framework/components/sass/framework/settings/_reset.sass */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section
+  display: block
 
-/* line 25, ../../../../../../Users/Myk/projects/framework/components/sass/framework/settings/_reset.sass */
-body { line-height: 1; }
+body
+  line-height: 1
 
-/* line 28, ../../../../../../Users/Myk/projects/framework/components/sass/framework/settings/_reset.sass */
-ol, ul { list-style: none; }
+ol, ul
+  list-style: none
 
-/* line 31, ../../../../../../Users/Myk/projects/framework/components/sass/framework/settings/_reset.sass */
-blockquote, q { quotes: none; }
+blockquote, q
+  quotes: none
 
-/* line 34, ../../../../../../Users/Myk/projects/framework/components/sass/framework/settings/_reset.sass */
-blockquote:before, blockquote:after, q:before, q:after { content: ""; content: none; }
+blockquote:before, blockquote:after,
+q:before, q:after
+  content: ''
+  content: none
 
-/* line 39, ../../../../../../Users/Myk/projects/framework/components/sass/framework/settings/_reset.sass */
-table { border-collapse: collapse; border-spacing: 0; }
+table
+  border-collapse: collapse
+  border-spacing: 0
 
 /* line 47, ../../../../../../Users/Myk/projects/framework/components/sass/framework/settings/_config.sass */
-*, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 /* line 1, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_base.sass */
-body { font-family: "Open Sans", sans-serif; }
+body {
+  font-family: "Open Sans", sans-serif;
+}
 
 /* line 7, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-[class*='col-'] { float: left; padding: 0 5px; }
+[class*='col-'] {
+  float: left;
+  padding: 0 5px;
+}
 /* line 10, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-[class*='col-']:last-of-type { float: right; }
+[class*='col-']:last-of-type {
+  float: right;
+}
 
 /* line 15, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row { max-width: 1200px; margin: auto; }
+.row {
+  max-width: 1200px;
+  margin: auto;
+}
 /* line 18, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row:after { content: ""; display: table; clear: both; }
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 /* line 22, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row .col-1 { width: 100%; }
+.row .col-1 {
+  width: 100%;
+}
 /* line 24, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row .col-1-2 { width: 50%; }
+.row .col-1-2 {
+  width: 50%;
+}
 /* line 26, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row .col-1-3 { width: 33.3%; }
+.row .col-1-3 {
+  width: 33.3%;
+}
 /* line 28, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row .col-2-3 { width: 66.66667%; }
+.row .col-2-3 {
+  width: 66.66667%;
+}
 /* line 30, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row .col-1-4 { width: 25%; }
+.row .col-1-4 {
+  width: 25%;
+}
 /* line 32, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row .col-3-4 { width: 75%; }
+.row .col-3-4 {
+  width: 75%;
+}
 /* line 34, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row .col-1-5 { width: 20%; }
+.row .col-1-5 {
+  width: 20%;
+}
 /* line 36, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row .col-4-5 { width: 80%; }
+.row .col-4-5 {
+  width: 80%;
+}
 /* line 38, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row .col-1-6 { width: 16.66667%; }
+.row .col-1-6 {
+  width: 16.66667%;
+}
 /* line 40, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row .col-5-6 { width: 83.33333%; }
+.row .col-5-6 {
+  width: 83.33333%;
+}
 /* line 42, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row .col-1-7 { width: 14.28571%; }
+.row .col-1-7 {
+  width: 14.28571%;
+}
 /* line 44, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row .col-6-7 { width: 85.71429%; }
+.row .col-6-7 {
+  width: 85.71429%;
+}
 /* line 46, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row .col-1-8 { width: 12.5%; }
+.row .col-1-8 {
+  width: 12.5%;
+}
 /* line 48, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row .col-7-8 { width: 87.5%; }
+.row .col-7-8 {
+  width: 87.5%;
+}
 /* line 50, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row .col-1-9 { width: 11.11%; }
+.row .col-1-9 {
+  width: 11.11%;
+}
 /* line 52, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row .col-8-9 { width: 88.88889%; }
+.row .col-8-9 {
+  width: 88.88889%;
+}
 /* line 54, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row .col-1-10 { width: 10%; }
+.row .col-1-10 {
+  width: 10%;
+}
 /* line 56, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row .col-9-10 { width: 90%; }
+.row .col-9-10 {
+  width: 90%;
+}
 /* line 58, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row .col-1-11 { width: 9.09091%; }
+.row .col-1-11 {
+  width: 9.09091%;
+}
 /* line 60, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row .col-10-11 { width: 90.90909%; }
+.row .col-10-11 {
+  width: 90.90909%;
+}
 /* line 62, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row .col-1-12 { width: 8.33%; }
+.row .col-1-12 {
+  width: 8.33%;
+}
 /* line 64, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row .col-11-12 { width: 91.66667%; }
+.row .col-11-12 {
+  width: 91.66667%;
+}
 /* line 66, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row .col-1-12 { width: 8.33333%; }
+.row .col-1-12 {
+  width: 8.33333%;
+}
 /* line 68, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row .col-2-12 { width: 16.66667%; }
+.row .col-2-12 {
+  width: 16.66667%;
+}
 /* line 70, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row .col-3-12 { width: 25%; }
+.row .col-3-12 {
+  width: 25%;
+}
 /* line 72, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row .col-4-12 { width: 33.33333%; }
+.row .col-4-12 {
+  width: 33.33333%;
+}
 /* line 74, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row .col-5-12 { width: 41.66667%; }
+.row .col-5-12 {
+  width: 41.66667%;
+}
 /* line 76, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row .col-6-12 { width: 50%; }
+.row .col-6-12 {
+  width: 50%;
+}
 /* line 78, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row .col-7-12 { width: 58.33333%; }
+.row .col-7-12 {
+  width: 58.33333%;
+}
 /* line 80, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row .col-8-12 { width: 66.66667%; }
+.row .col-8-12 {
+  width: 66.66667%;
+}
 /* line 82, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row .col-9-12 { width: 75%; }
+.row .col-9-12 {
+  width: 75%;
+}
 /* line 84, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row .col-10-12 { width: 83.33333%; }
+.row .col-10-12 {
+  width: 83.33333%;
+}
 /* line 86, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row .col-11-12 { width: 91.66667%; }
+.row .col-11-12 {
+  width: 91.66667%;
+}
 
-@media (max-width: 480px) { /* line 90, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-  .row .col-1, .row .col-1-2, .row .col-1-3, .row .col-1-4, .row .col-1-5, .row .col-1-6, .row .col-1-7, .row .col-1-8, .row .col-1-9, .row .col-1-10, .row .col-1-11, .row .col-1-12 { float: none; width: 100%; padding: 0 10px; }
+@media (max-width: 480px) {
+  /* line 90, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
+  .row .col-1,
+  .row .col-1-2,
+  .row .col-1-3,
+  .row .col-1-4,
+  .row .col-1-5,
+  .row .col-1-6,
+  .row .col-1-7,
+  .row .col-1-8,
+  .row .col-1-9,
+  .row .col-1-10,
+  .row .col-1-11,
+  .row .col-1-12 {
+    float: none;
+    width: 100%;
+    padding: 0 10px;
+  }
   /* line 105, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-  .row .col-1:last-of-type, .row .col-1-2:last-of-type, .row .col-1-3:last-of-type, .row .col-1-4:last-of-type, .row .col-1-5:last-of-type, .row .col-1-6:last-of-type, .row .col-1-7:last-of-type, .row .col-1-8:last-of-type, .row .col-1-9:last-of-type, .row .col-1-10:last-of-type, .row .col-1-11:last-of-type, .row .col-1-12:last-of-type { padding: 0 10px; } }
+  .row .col-1:last-of-type,
+  .row .col-1-2:last-of-type,
+  .row .col-1-3:last-of-type,
+  .row .col-1-4:last-of-type,
+  .row .col-1-5:last-of-type,
+  .row .col-1-6:last-of-type,
+  .row .col-1-7:last-of-type,
+  .row .col-1-8:last-of-type,
+  .row .col-1-9:last-of-type,
+  .row .col-1-10:last-of-type,
+  .row .col-1-11:last-of-type,
+  .row .col-1-12:last-of-type {
+    padding: 0 10px;
+  }
+}
 /* line 109, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row > .row [class*='col-'] { padding: 0; }
+.row > .row [class*='col-'] {
+  padding: 0;
+}
 
 /* line 125, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row .col-1.colCentered, .row .col-1-2.colCentered, .row .col-1-3.colCentered, .row .col-1-4.colCentered, .row .col-1-5.colCentered, .row .col-1-6.colCentered, .row .col-1-7.colCentered, .row .col-1-8.colCentered, .row .col-1-9.colCentered, .row .col-1-10.colCentered, .row .col-1-11.colCentered, .row .col-1-12.colCentered { margin: auto; float: none; }
+.row .col-1.colCentered,
+.row .col-1-2.colCentered,
+.row .col-1-3.colCentered,
+.row .col-1-4.colCentered,
+.row .col-1-5.colCentered,
+.row .col-1-6.colCentered,
+.row .col-1-7.colCentered,
+.row .col-1-8.colCentered,
+.row .col-1-9.colCentered,
+.row .col-1-10.colCentered,
+.row .col-1-11.colCentered,
+.row .col-1-12.colCentered {
+  margin: auto;
+  float: none;
+}
 
 /* line 131, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.panel { margin: 10px 0; background: #BAC2CE; padding: 10px; color: white; font-size: 10px; font-weight: 100; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; border-radius: 4px; }
+.panel {
+  margin: 10px 0;
+  background: #BAC2CE;
+  padding: 10px;
+  color: white;
+  font-size: 10px;
+  font-weight: 100;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+}
 
 /* line 141, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row:hover .panel { background: #949FAF; }
+.row:hover .panel {
+  background: #949FAF;
+}
 /* line 143, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-.row:hover .panel:hover { background: #677993; }
+.row:hover .panel:hover {
+  background: #677993;
+}
 
-@media (max-width: 480px) { /* line 146, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
-  .panel { margin: 0 0 20px 0; } }
+@media (max-width: 480px) {
+  /* line 146, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
+  .panel {
+    margin: 0 0 20px 0;
+  }
+}
 
 /*# sourceMappingURL=main.sass.map */
 
@@ -430,45 +606,3 @@ $lightUI-borderDark: #9b9fa9
   -webkit-align-self: stretch
   -ms-flex-item-align: stretch
   align-self: stretch
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center, dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video
-  margin: 0
-  padding: 0
-  border: 0
-  font-size: 100%
-  font: inherit
-  vertical-align: baseline
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section
-  display: block
-
-body
-  line-height: 1
-
-ol, ul
-  list-style: none
-
-blockquote, q
-  quotes: none
-
-blockquote:before, blockquote:after,
-q:before, q:after
-  content: ''
-  content: none
-
-table
-  border-collapse: collapse
-  border-spacing: 0

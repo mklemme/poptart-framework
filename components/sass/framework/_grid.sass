@@ -1,0 +1,149 @@
+// =============
+//
+// The Poptart Grid Framework
+//
+//
+//
+
+[class*='col-']
+  float: left
+  padding: 0 5px
+  &:last-of-type
+    float: right
+    // padding-right: 0px
+
+// Setting up the columns' widths
+.row
+  max-width: 1200px
+  margin: auto
+  
+  &:after
+    content: ""
+    display: table
+    clear: both
+  .col-1
+    width: 100%
+  .col-1-2
+    width: 50%
+  .col-1-3
+    width: 33.3%
+  .col-2-3
+    width: 100%/3*2
+  .col-1-4
+    width: 25%
+  .col-3-4
+    width: 100%/4*3
+  .col-1-5
+    width: 20%
+  .col-4-5
+    width: 100%/5*4
+  .col-1-6
+    width: 16.6666666667%
+  .col-5-6
+    width: 100%/6*5
+  .col-1-7
+    width: 14.2857142857%
+  .col-6-7
+    width: 100%/7*6
+  .col-1-8
+    width: 12.5%
+  .col-7-8
+    width: 100%/8*7
+  .col-1-9
+    width: 11.11%
+  .col-8-9
+    width: 100%/9*8
+  .col-1-10
+    width: 10%
+  .col-9-10
+    width: 100%/10*9
+  .col-1-11
+    width: 9.09090909091%
+  .col-10-11
+    width: 100%/11*10
+  .col-1-12
+    width: 8.33%
+  .col-11-12
+    width: 100%/12*11
+  .col-1-12
+    width: 100%/12*1
+  .col-2-12
+    width: 100%/12*2
+  .col-3-12
+    width: 100%/12*3
+  .col-4-12
+    width: 100%/12*4
+  .col-5-12
+    width: 100%/12*5
+  .col-6-12
+    width: 100%/12*6
+  .col-7-12
+    width: 100%/12*7
+  .col-8-12
+    width: 100%/12*8
+  .col-9-12
+    width: 100%/12*9
+  .col-10-12
+    width: 100%/12*10
+  .col-11-12
+    width: 100%/12*11
+@media (max-width: 480px)
+  .row
+    .col-1,
+    .col-1-2,
+    .col-1-3,
+    .col-1-4,
+    .col-1-5,
+    .col-1-6,
+    .col-1-7,
+    .col-1-8,
+    .col-1-9,
+    .col-1-10,
+    .col-1-11,
+    .col-1-12
+      float: none
+      width: 100%
+      padding: 0 10px
+      &:last-of-type
+        padding: 0 10px
+.row > .row
+
+  [class*='col-']
+    padding: 0
+  // Centering styles
+.row
+  .col-1,
+  .col-1-2,
+  .col-1-3,
+  .col-1-4,
+  .col-1-5,
+  .col-1-6,
+  .col-1-7,
+  .col-1-8,
+  .col-1-9,
+  .col-1-10,
+  .col-1-11,
+  .col-1-12
+    &.colCentered
+      margin: auto
+      float: none
+
+
+
+.panel
+  margin: 10px 0
+  background: #BAC2CE
+  padding: 10px
+  color: white
+  font-size: 10px
+  font-weight: 100
+  +border-radius(4px)
+.row
+  &:hover
+    .panel
+      background: #949FAF
+      &:hover
+        background: #677993
+@media (max-width: 480px)
+  .panel
+    margin: 0 0 20px 0

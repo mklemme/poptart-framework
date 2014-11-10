@@ -1,14 +1,14 @@
 var express = require('express'),
 app = express();
 
-app.set("view engine","ejs");
+app.set("view engine","jade");
 app.use(express.static(__dirname));
 app.get('/',function(req,res){
   res.render("index");
 });
 
-app.get('/test',function(req,res){
-  res.render("awesome");
+app.get('/grid',function(req,res){
+  res.render("grid");
 });
 
 app.listen(process.env.PORT || 3000, function(){

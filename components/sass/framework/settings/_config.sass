@@ -1,0 +1,52 @@
+// The role of the config sass file is two fold. Adjust !defaults as set in lower level modules
+// and to set theme variables.
+
+// Typically, commented out variables signify a !default setting at a
+// lower level module.
+
+
+
+// CSS3 defaults
+// *-------------------------------------------------------------------------------
+// $default-box-sizing: border-box;
+
+
+/////// Typography configuration
+// *-------------------------------------------------------------------------------
+$font-family: "Open Sans", sans-serif
+$font-size: 12px
+
+$heading-1: 46px
+$heading-2: 32px
+$heading-3: 28px
+$heading-4: 18px
+$heading-5: 18px
+$heading-6: 18px
+
+$line: $font-size * 1.5
+$small-point-size: 10px
+$large-point-size: 14px
+
+
+/////// Colors
+// *-------------------------------------------------------------------------------
+
+$background-color: #efefef
+$header-background: #ffffff
+
+
+$ctaNormal: #92af88
+$ctaNormalDark: #728f68
+
+$ctaDark: #686872
+$ctaDarkDark: #3B3B44
+
+$lightUI-borderLight: #dadada
+$lightUI-borderDark: #9b9fa9
+
+*,
+*:before,
+*:after
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
