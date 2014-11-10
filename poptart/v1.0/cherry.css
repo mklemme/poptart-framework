@@ -26,9 +26,6 @@ table { border-collapse: collapse; border-spacing: 0; }
 /* line 1, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_base.sass */
 body { font: 12px/14px "Open Sans", sans-serif; }
 
-/* line 3, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_base.sass */
-h1, h2, h3, h4, h5, h6 { font-family: "proxima-nova-soft"; }
-
 /* line 8, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
 [class*='col-'] { float: left; padding: 0 5px; }
 /* line 11, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */

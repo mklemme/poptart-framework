@@ -1,7 +1,7 @@
 /* line 1, main.sass */
 body.home {
   background: #bb596c;
-  font-family: "Open Sans";
+  font-family: "proxima-nova-soft";
 }
 /* line 4, main.sass */
 body.home .info {
@@ -10,20 +10,21 @@ body.home .info {
 /* line 6, main.sass */
 body.home h1 {
   color: white;
-  font-size: 40px;
+  font-size: 30px;
+  font-weight: 300;
 }
-/* line 9, main.sass */
+/* line 10, main.sass */
 body.home h1 span {
   color: #e4b3bc;
   margin: 0 0 0 10px;
   font-weight: 100;
   font-size: 12px;
 }
-/* line 15, main.sass */
+/* line 16, main.sass */
 body.home .getting-started {
   margin: 50px 0;
 }
-/* line 17, main.sass */
+/* line 18, main.sass */
 body.home .getting-started a {
   text-transform: uppercase;
   margin: 0 0 10px 0;
@@ -31,13 +32,13 @@ body.home .getting-started a {
   color: #e4b3bc;
   text-decoration: none;
 }
-/* line 23, main.sass */
+/* line 24, main.sass */
 body.home .getting-started span {
   color: white;
   display: inline-block;
   margin: 0 10px;
 }
-/* line 27, main.sass */
+/* line 28, main.sass */
 body.home input {
   outline: none;
   border: none;
@@ -52,7 +53,7 @@ body.home input {
   font-family: "Open Sans";
   transition: all 0.2s;
 }
-/* line 40, main.sass */
+/* line 41, main.sass */
 body.home input:focus {
   background: rgba(255, 255, 255, 0.9);
   color: #111111;
