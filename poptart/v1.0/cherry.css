@@ -1,30 +1,30 @@
 /* line 1, ../../../../../../Users/Myk/projects/framework/components/sass/framework/settings/_reset.sass */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
-/* line 21, ../../../../../../Users/Myk/projects/framework/components/sass/framework/settings/_reset.sass */
+/* line 20, ../../../../../../Users/Myk/projects/framework/components/sass/framework/settings/_reset.sass */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
 
-/* line 25, ../../../../../../Users/Myk/projects/framework/components/sass/framework/settings/_reset.sass */
+/* line 24, ../../../../../../Users/Myk/projects/framework/components/sass/framework/settings/_reset.sass */
 body { line-height: 1; }
 
-/* line 28, ../../../../../../Users/Myk/projects/framework/components/sass/framework/settings/_reset.sass */
+/* line 27, ../../../../../../Users/Myk/projects/framework/components/sass/framework/settings/_reset.sass */
 ol, ul { list-style: none; }
 
-/* line 31, ../../../../../../Users/Myk/projects/framework/components/sass/framework/settings/_reset.sass */
+/* line 30, ../../../../../../Users/Myk/projects/framework/components/sass/framework/settings/_reset.sass */
 blockquote, q { quotes: none; }
 
-/* line 34, ../../../../../../Users/Myk/projects/framework/components/sass/framework/settings/_reset.sass */
+/* line 33, ../../../../../../Users/Myk/projects/framework/components/sass/framework/settings/_reset.sass */
 blockquote:before, blockquote:after, q:before, q:after { content: ""; content: none; }
 
-/* line 39, ../../../../../../Users/Myk/projects/framework/components/sass/framework/settings/_reset.sass */
+/* line 38, ../../../../../../Users/Myk/projects/framework/components/sass/framework/settings/_reset.sass */
 table { border-collapse: collapse; border-spacing: 0; }
 
 /* line 47, ../../../../../../Users/Myk/projects/framework/components/sass/framework/settings/_config.sass */
 *, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
 /* line 1, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_base.sass */
-body { font-family: "Open Sans", sans-serif; }
+body { font: 12px/14px "Open Sans", sans-serif; }
 
 /* line 8, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
 [class*='col-'] { float: left; padding: 0 5px; }

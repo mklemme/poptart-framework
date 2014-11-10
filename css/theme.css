@@ -1,6 +1,61 @@
 /* line 1, main.sass */
 body.home {
-  background: #333;
+  background: #bb596c;
+  font-family: "Open Sans";
+}
+/* line 4, main.sass */
+body.home .info {
+  padding: 250px 0 0 0;
+}
+/* line 6, main.sass */
+body.home h1 {
+  color: white;
+  font-size: 40px;
+}
+/* line 9, main.sass */
+body.home h1 span {
+  color: #e4b3bc;
+  margin: 0 0 0 10px;
+  font-weight: 100;
+  font-size: 12px;
+}
+/* line 15, main.sass */
+body.home .getting-started {
+  margin: 50px 0;
+}
+/* line 17, main.sass */
+body.home .getting-started a {
+  text-transform: uppercase;
+  margin: 0 0 10px 0;
+  display: inline-block;
+  color: #e4b3bc;
+  text-decoration: none;
+}
+/* line 23, main.sass */
+body.home .getting-started span {
+  color: white;
+  display: inline-block;
+  margin: 0 10px;
+}
+/* line 27, main.sass */
+body.home input {
+  outline: none;
+  border: none;
+  background: rgba(17, 17, 17, 0.15);
+  padding: 15px 15px;
+  color: white;
+  width: 100%;
+  margin: 0;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 100;
+  font-family: "Open Sans";
+  transition: all 0.2s;
+}
+/* line 40, main.sass */
+body.home input:focus {
+  background: rgba(255, 255, 255, 0.9);
+  color: #111111;
 }
 
 /*# sourceMappingURL=main.sass.map */

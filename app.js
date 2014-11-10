@@ -4,7 +4,10 @@ app = express();
 app.set("view engine","jade");
 app.use(express.static(__dirname));
 app.get('/',function(req,res){
-  res.render("index");
+  res.render("index",{
+    bodyClass: "home",
+    title: "Home"
+  });
 });
 
 app.get('/grid',function(req,res){
