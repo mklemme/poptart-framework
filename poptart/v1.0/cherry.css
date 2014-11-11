@@ -122,5 +122,13 @@ body { font: 12px/14px "Open Sans", sans-serif; }
 
 @media (max-width: 480px) { /* line 148, ../../../../../../Users/Myk/projects/framework/components/sass/framework/_grid.sass */
   .panel { margin: 0 0 20px 0; } }
+/* line 2, ../../../../../../Users/Myk/projects/framework/components/sass/framework/components/_cards.sass */
+.poptart .card { border: 1px solid #dadada; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; border-radius: 4px; }
+/* line 5, ../../../../../../Users/Myk/projects/framework/components/sass/framework/components/_cards.sass */
+.poptart .card .card-header { padding: 10px; border-bottom: 1px solid #dadada; }
+/* line 8, ../../../../../../Users/Myk/projects/framework/components/sass/framework/components/_cards.sass */
+.poptart .card .card-section { padding: 10px; }
+/* line 10, ../../../../../../Users/Myk/projects/framework/components/sass/framework/components/_cards.sass */
+.poptart .card .card-section + .card-section { border-top: 1px solid #dadada; }
 
 /*# sourceMappingURL=main.sass.map */

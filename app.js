@@ -3,10 +3,19 @@ app = express();
 
 app.set("view engine","jade");
 app.use(express.static(__dirname));
+
+
 app.get('/',function(req,res){
   res.render("index",{
     bodyClass: "home",
     title: "Home"
+  });
+});
+
+app.get('/utilities',function(req,res){
+  res.render("utilities",{
+    bodyClass: "utilities",
+    title: "Utilities"
   });
 });
 
