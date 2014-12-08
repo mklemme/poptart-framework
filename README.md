@@ -23,9 +23,24 @@ Include this in your header to include Poptart's assets.
 
 ### Method 3: SASS/SCSS raw files
 
-If you want to use the raw SASS files, download them **here**. Check out our list of recommended development workflows for **node** and **rails**.
+If you want to use the raw SASS files, download them **here**. Check out our list of recommended development workflows for **node** and **rails**. The file structure for the SASS files:
 ```html
-<link href="path/to/library/cherry/1.0.min.css" type="stylesheet">
+.
+├── application.scss
+└── _poptart
+    |
+    ├── _settings
+    |   ├── config.sass
+    |   ├── mixins.sass
+    |   ├── reset.sass
+    |
+    ├── _components 
+    |   ├── button.sass
+    |   ├── grid.sass
+    |   ├── cards.sass
+    |   
+    └── framework.sass
+
 ```
 
 ### Method 4: Node app starter kit
