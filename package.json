@@ -15,7 +15,7 @@
     "gulp-util": "*"
   },
   "dependencies": {
-    "ejs": "^1.0.0",
+    "ejs": "^2.7.1",
     "express": "^4.10.1",
     "gulp": "^3.8.8",
     "jade": "^1.7.0"
